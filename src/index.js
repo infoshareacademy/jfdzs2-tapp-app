@@ -14,10 +14,10 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/Contacts/contact' component={Contact}/>
-            <Route path="/Dashboard/dashboard" component={Dashboard} />
-            <Route path="/Favorites/favorites" component={Favorites} />
-            <Route path="/Match/match" component={Match} />
-            <Route path="/Settings/Settings" component={Settings} />
+            <Route path='/contact' component={Contact}/>
+            <Route path='/dashboard' component={Dashboard} />
+            <Route path='/favorites' component={Favorites} />
+            <Route path='/match' component={Match} />
+            <Route path='/settings' component={Settings} />
         </Switch>
     </BrowserRouter>, document.getElementById('root'));

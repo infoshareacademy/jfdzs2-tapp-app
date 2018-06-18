@@ -6,11 +6,11 @@ class Menu extends Component {
     return (
         <div>
             <Link to="/">Home</Link>
-            <Link to="/Contacts/contact.js"> Kontakty </Link>
-            <Link to="/Dashboard/dashboard.js"> Dashboard </Link>
-            <Link to="/Favorites/favorites.js"> Ulubieni </Link>
-            <Link to="/Match/match.js"> Dopasowani </Link>
-            <Link to="/Settings/settings.js"> Ustawienia </Link>
+            <Link to="/contact"> Kontakty </Link>
+            <Link to="/dashboard"> Dashboard </Link>
+            <Link to="/favorites"> Ulubieni </Link>
+            <Link to="/match"> Dopasowani </Link>
+            <Link to="/settings"> Ustawienia </Link>
         </div>
     );
   }

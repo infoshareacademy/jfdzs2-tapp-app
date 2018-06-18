@@ -7,7 +7,7 @@ class Match extends PureComponent {
     render() {
         return (
             <Fragment>
-                <Header applicationName=""/>
+                <Header applicationName="Co nas łączy?"/>
                 <Menu/>
                 <Footer />
             </Fragment>
