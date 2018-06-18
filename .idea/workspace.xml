@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74eb973b-4e15-4249-8c4e-d8106c570a21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/footer.js" afterPath="$PROJECT_DIR$/src/Components/Footer/footer.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Menu/menu.component.js" afterPath="$PROJECT_DIR$/src/Components/Menu/menu.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Contacts/contact.js" afterPath="$PROJECT_DIR$/src/Routes/Contacts/contact.js" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Dashboard/dashboard.js" afterPath="$PROJECT_DIR$/src/Routes/Dashboard/dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Favorites/favorites.js" afterPath="$PROJECT_DIR$/src/Routes/Favorites/favorites.js" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Match/match.js" afterPath="$PROJECT_DIR$/src/Routes/Match/match.js" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Settings/settings.js" afterPath="$PROJECT_DIR$/src/Routes/Settings/settings.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="212" lean-forward="false" selection-start-line="12" selection-start-column="212" selection-end-line="12" selection-end-column="212" />
               <folding />
             </state>
           </provider>
@@ -128,18 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Routes/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -172,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Menu/menu.component.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/footer.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -218,6 +209,11 @@
             <path>
               <item name="jfdzs2-tapp-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="jfdzs2-tapp-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfdzs2-tapp-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfdzs2-tapp-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfdzs2-tapp-app" type="b2602c69:ProjectViewProjectNode" />
@@ -342,7 +338,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19389000" />
+    <option name="totallyTimeSpent" value="19783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="-4" width="1535" height="799" extended-state="6" />
@@ -385,6 +381,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="212" lean-forward="false" selection-start-line="12" selection-start-column="212" selection-end-line="12" selection-end-column="212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -781,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Header/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
