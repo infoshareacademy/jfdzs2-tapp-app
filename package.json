@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^1.2.3",
     "babel": "^6.23.0",
+    "bootstrap": "^4.1.1",
+    "mdbreact": "^4.5.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
@@ -14,5 +17,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infoshareacademy/jfdzs2-tapp-app.git"
+  },
+  "author": "Tapp team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infoshareacademy/jfdzs2-tapp-app/issues"
+  },
+  "homepage": "https://github.com/infoshareacademy/jfdzs2-tapp-app#readme"
 }
