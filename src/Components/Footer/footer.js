@@ -5,7 +5,7 @@ class Footer extends Component {
     render(){
         return (
             <div className ="footer">
-Copieright @ Tapp Team
+Copyright @ Tapp Team
             </div>
         );
     }
