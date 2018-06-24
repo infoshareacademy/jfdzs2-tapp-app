@@ -30,7 +30,7 @@ class Login extends PureComponent {
 
         window.fbAsyncInit = function () {
             FB.init({
-                appId: '202999163755971np',
+                appId: '202999163755971',
                 cookie: true,
 
                 xfbml: true,
