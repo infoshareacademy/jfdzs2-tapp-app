@@ -1,7 +1,10 @@
 import React, { PureComponent, Fragment } from 'react';
 import Header from '../Components/Header/header.js';
 import Footer from '../Components/Footer/footer.js';
-import Menu from '../Components/navbar/menu.component.js';
+import Menu from '../Components/Menu/menu.component.js';
+import Login from '../Routes/Login/login';
+
+
 
 class Home extends PureComponent{
 
@@ -10,6 +13,7 @@ class Home extends PureComponent{
             <Fragment>
                 <Header applicationName="Co nas łączy?" />
                 <Menu />
+                <Login />
                 <Footer />
             </Fragment>
         );

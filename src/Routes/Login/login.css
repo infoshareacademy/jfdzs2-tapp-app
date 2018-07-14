@@ -1,0 +1,32 @@
+h1 {
+    color: whitesmoke;
+}
+.Login {
+    background-image: url("image/adventure.jpeg");
+}
+.App-intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(245, 245, 220, 0.51);
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #3b5998;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
