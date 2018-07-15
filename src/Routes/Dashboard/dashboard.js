@@ -7,8 +7,7 @@ class Dashboard extends PureComponent {
     render() {
         return (
             <Fragment>
-                <Header applicationName="Co nas łączy?"/>
-                <Menu />
+                
                 <Footer />
             </Fragment>
         );

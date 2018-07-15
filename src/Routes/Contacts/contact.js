@@ -7,8 +7,7 @@ class Contact extends PureComponent {
   render() {
     return (
         <Fragment>
-            <Header applicationName="Co nas łączy?"/>
-            <Menu/>
+            Content of contact
             <Footer />
         </Fragment>
     );

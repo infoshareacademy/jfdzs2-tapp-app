@@ -8,8 +8,7 @@ class Home extends PureComponent{
     render(){
         return (
             <Fragment>
-                <Header applicationName="Co nas łączy?" />
-                <Menu />
+                Content of home
                 <Footer />
             </Fragment>
         );

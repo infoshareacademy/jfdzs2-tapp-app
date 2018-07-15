@@ -7,8 +7,7 @@ class Favorites extends PureComponent {
     render() {
         return (
             <Fragment>
-                <Header applicationName="Co nas łączy?"/>
-                <Menu/>
+
                 <Footer />
             </Fragment>
         );
