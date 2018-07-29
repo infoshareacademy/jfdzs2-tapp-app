@@ -14,15 +14,17 @@ import Navbar from "./Components/navbar/Navbar.component";
 
 ReactDOM.render(
     <MuiThemeProvider>
-    <BrowserRouter>
-        <Switch>
-            <Navbar/>
-            <Route exact path='/' component={Home} />
-            <Route path='/contact' component={Contact}/>
-            <Route path='/dashboard' component={Dashboard} />
-            <Route path='/favorites' component={Favorites} />
-            <Route path='/match' component={Match} />
-            <Route path='/settings' component={Settings} />
-        </Switch>
-    </BrowserRouter>
+        <BrowserRouter>
+            <React.Fragment>
+                <Navbar/>
+                <Switch>
+                    <Route exact path='/' component={Home}/>
+                    <Route path='/contact' component={Contact}/>
+                    <Route path='/dashboard' component={Dashboard}/>
+                    <Route path='/favorites' component={Favorites}/>
+                    <Route path='/match' component={Match}/>
+                    <Route path='/settings' component={Settings}/>
+                </Switch>
+            </React.Fragment>
+        </BrowserRouter>
     </MuiThemeProvider>, document.getElementById('root'));
